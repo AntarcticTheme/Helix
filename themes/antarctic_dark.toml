@@ -1,0 +1,92 @@
+# Antarctic Dark — MIT license
+"keyword" = { fg = "purple" }
+"attribute" = { fg = "purple" }
+"function.macro" = { fg = "purple" }
+"special" = { fg = "purple" }
+"variable" = { fg = "amber" }
+"variable.other.member" = { fg = "amber" }
+"tag" = { fg = "amber" }
+"label" = { fg = "amber" }
+"variable.parameter" = { fg = "fg" }
+"punctuation" = { fg = "fg" }
+"function" = { fg = "green" }
+"constant" = { fg = "green" }
+"constant.numeric" = { fg = "green" }
+"constant.builtin.boolean" = { fg = "green" }
+"type.enum.variant" = { fg = "green" }
+"type" = { fg = "blue" }
+"constructor" = { fg = "blue" }
+"namespace" = { fg = "blue" }
+"variable.builtin" = { fg = "blue" }
+"string" = { fg = "red" }
+"constant.character" = { fg = "red" }
+"comment" = { fg = "muted" }
+"operator" = { fg = "teal" }
+"string.regexp" = { fg = "teal" }
+"constant.character.escape" = { fg = "teal" }
+"markup.link.url" = { fg = "teal" }
+"markup.heading" = { fg = "amber" }
+"markup.raw" = { fg = "red" }
+"diff.plus" = { fg = "green" }
+"diff.minus" = { fg = "red" }
+"diff.delta" = { fg = "blue" }
+"markup.bold" = { fg = "fg", modifiers = ["bold"] }
+"markup.italic" = { fg = "fg", modifiers = ["italic"] }
+"markup.strikethrough" = { fg = "muted", modifiers = ["crossed_out"] }
+"ui.background" = { fg = "fg", bg = "bg" }
+"ui.text" = { fg = "fg", bg = "bg" }
+"ui.gutter" = { fg = "fg", bg = "bg" }
+"ui.statusline" = { fg = "fg", bg = "surface" }
+"ui.bufferline" = { fg = "fg", bg = "surface" }
+"ui.popup" = { fg = "fg", bg = "surface" }
+"ui.help" = { fg = "fg", bg = "surface" }
+"ui.menu" = { fg = "fg", bg = "surface" }
+"ui.window" = { fg = "fg", bg = "surface" }
+"ui.statusline.inactive" = { fg = "muted", bg = "surface" }
+"ui.linenr" = { fg = "muted", bg = "surface" }
+"ui.text.inactive" = { fg = "muted", bg = "surface" }
+"ui.virtual.inlay-hint" = { fg = "muted", bg = "surface" }
+"ui.cursor" = { fg = "inverse", bg = "teal" }
+"ui.cursor.primary" = { fg = "inverse", bg = "teal" }
+"ui.selection" = { fg = "inverse", bg = "teal" }
+"ui.selection.primary" = { fg = "inverse", bg = "teal" }
+"ui.menu.selected" = { fg = "inverse", bg = "teal" }
+"ui.bufferline.active" = { fg = "inverse", bg = "teal" }
+"ui.text.focus" = { fg = "inverse", bg = "teal" }
+"ui.cursorline.primary" = { bg = "surface" }
+"ui.cursorline.secondary" = { bg = "surface" }
+"ui.highlight" = { bg = "surface" }
+"ui.linenr.selected" = { fg = "teal", modifiers = ["bold"] }
+"ui.cursor.match" = { fg = "inverse", bg = "amber" }
+"ui.virtual.ruler" = { fg = "border" }
+"ui.virtual.whitespace" = { fg = "border" }
+"ui.virtual.indent-guide" = { fg = "border" }
+"error" = { fg = "red" }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"warning" = { fg = "amber" }
+"diagnostic.warning" = { underline = { color = "amber", style = "curl" } }
+"info" = { fg = "blue" }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"hint" = { fg = "teal" }
+"diagnostic.hint" = { underline = { color = "teal", style = "curl" } }
+
+[palette]
+bg = "#1D2D33"
+surface = "#263A42"
+border = "#344C59"
+fg = "#F3FBFF"
+muted = "#9BAAAE"
+teal = "#5CD5DC"
+green = "#73D5AD"
+purple = "#CE8BC1"
+red = "#E58B80"
+amber = "#E5B16A"
+blue = "#92C1CA"
+glacier = "#7FB3B7"
+bright_red = "#F5A094"
+bright_purple = "#E6A0D8"
+bright_amber = "#F3BE83"
+frost = "#F3FBFF"
+abyss = "#142228"
+deep = "#C1D4DE"
+inverse = "#142228"
